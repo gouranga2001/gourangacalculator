@@ -1,0 +1,43 @@
+body {
+
+    background: linear-gradient(to right, #00AAFF, #00FF6c);
+    min-height: 5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    
+}
+
+ 
+.calculatorgrid>.row {
+    
+    min-height: 80px;
+    max-height: 200px;
+    min-width: auto;
+    
+}
+
+button {
+    background-color: rgba(255, 255, 255, .75);
+    border: 1px solid rgba(245, 245, 245, 0.773);
+    }
+
+button:hover {
+    background: rgb(78, 235, 246);
+    transition: 0.30s;
+}
+
+.outputs{
+    background-color: rgba(0, 14, 6, 0.75);
+    border: 1px rgba(0, 14, 6, 0.75);  ;
+    min-height: 80px;
+    max-height: 200px;
+    min-width: auto;
+    color: whitesmoke;
+
+}
+#prev-operand{
+    font-size: smaller;
+}
