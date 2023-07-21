@@ -24,7 +24,7 @@ button {
     border: 1px solid rgba(245, 245, 245, 0.773);
     }
 
-button:hover {
+button:hover, button:active {
     background: rgb(78, 235, 246);
     transition: 0.30s;
 }
